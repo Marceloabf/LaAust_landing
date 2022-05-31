@@ -1,0 +1,28 @@
+section 1 625,48 (Fontes: Montserrat Medium) Botão 310x65,63
+section 2 914,88
+section 3 1.275,6
+section 4 625,48
+section 5 1.028,04
+section 6 995,41 px
+
+
+S1 - Tenha sempre uma agenda lotada!
+Mais contatos, mais pacientes, mais faturamento. 
+
+S2 - Olhando para o seu negócio hoje:
+Você está atendendo o seu cliente ideal?
+Sua agenda está sempre com horários disponíveis?
+Você tem pouco engajamento nas suas redes sociais?
+Você não está satisfeito com o fluxo de clientes que chegam?
+
+S3 - Você não está satisfeito com o fluxo de clientes que chegam?
+TEXTO TEXTO TEXTO
+
+S4 - +3.000 clientes satisfeitos
++50 mil em anúncios gerenciados
+Milhares Pacientes entregues todos os meses
+
+S5 - Contrate nossa equipe e mude a realidade do seu negócio! 
+
+S6 - Mando dps
+
