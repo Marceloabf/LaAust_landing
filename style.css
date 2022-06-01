@@ -1,92 +1,105 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 
 /* -------------CONSTANTS------------- */
-button{
-    width: 19.38rem;
-    height: 4rem;
-    border-radius: 2.2rem;
-    border: none;
+button {
+  width: 19.38rem;
+  height: 4rem;
+  border-radius: 2.2rem;
+  border: none;
 }
-a{
-    color: black;
-    font-weight: 400;
+a {
+  color: black;
+  font-weight: 400;
 }
-
+.provisoria {
+  width: 18.75rem; /*300px*/
+  height: 25rem; /*400px*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 3px solid black;
+}
 /* -------------VARIABLES------------- */
-:root{
- --marrom:#B18E72;
- --bege:#F0F0EC;   
+:root {
+  --marrom: #b18e72;
+  --bege: #f0f0ec;
 }
 
 /* -------------HEADER------------- */
-header{
-    background-image: url(./images/2.jpg);
-    height: 39.1rem;
-    background-size: cover;
-    background-position: center;
-    gap:3rem;
+header {
+  background-image: url(./images/2.jpg);
+  height: 39.1rem;
+  background-size: cover;
+  background-position: center;
+  gap: 3rem;
 }
-header button{
-background: white;
-}
-
-header img { 
-    height: 5rem;
-    width: 6rem;
-    margin-bottom: 4rem;
+header button {
+  background: white;
 }
 
-header h1{
-    color: white;
-    font-weight: 600;
-
+header img {
+  height: 5rem;
+  width: 6rem;
+  margin-bottom: 4rem;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+header h1 {
+  color: white;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 header p {
-    color: white;
-    font-weight: 300;
+  color: white;
+  font-weight: 300;
 }
 
 /* ------DORES DO CLIENTE-------- */
-#doresDoCliente h4{
-    padding-top: 3rem;
-    font-weight: 300;
-    color: var(--marrom);
+#doresDoCliente h4 {
+  padding-top: 3rem;
+  font-weight: 300;
+  color: var(--marrom);
 }
-#doresDoCliente p{
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: black;
+#doresDoCliente p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
 }
-#doresDoCliente .container{
-    gap: 3rem;
+#doresDoCliente .container {
+  gap: 3rem;
 }
-#doresDoCliente button{
-    background: var(--marrom);
-    margin-bottom: 3rem;
+#doresDoCliente button {
+  background: var(--marrom);
+  margin-bottom: 3rem;
 }
-#doresDoCliente button a{
-    color: white;
+#doresDoCliente button a {
+  color: white;
 }
-.circle{
-    height: 1.8rem;
-    width: 1.8rem;
-    background: var(--marrom);
-    border-radius: 50%;
-    display: inline-block;
+.circle {
+  height: 1.8rem;
+  width: 1.8rem;
+  background: var(--marrom);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 /* ------MOCKUP-1-------- */
+#mockup-1 {
+  background: var(--bege);
+  padding-top: 3rem;
+}
+/* #mockup-1 .provisoria {
+  padding-top: 3rem;
+} */
