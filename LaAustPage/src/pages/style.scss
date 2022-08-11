@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.firstSection {
+  width: 54.18rem;
+  height: 46.625rem;
+
+  background-image: url(../assets/backgroundImage.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #e5e1de;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .containerMain {
+    width: 46rem;
+    height: 19.43rem;
+
+    background: #fefefe;
+
+    margin-top: 5.81rem;
+
+    h1 {
+      font-family: Classico;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 47px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}
