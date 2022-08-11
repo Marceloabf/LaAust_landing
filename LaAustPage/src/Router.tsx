@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes as RoutesReact } from 'react-router-dom'
 
-export function Router() {
+export function Routes() {
   return (
     <>
       <BrowserRouter>
