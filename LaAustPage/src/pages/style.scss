@@ -19,17 +19,41 @@ main {
     width: 46rem;
     height: 19.43rem;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background: #fefefe;
 
     margin-top: 5.81rem;
 
+    position: relative;
     h1 {
       font-family: Classico;
       font-size: 48px;
       font-weight: 400;
-      line-height: 47px;
+      line-height: 70px;
       letter-spacing: 0em;
       text-align: center;
+      margin-top: 3.6875rem;
+      margin-bottom: 0;
+    }
+    button {
+      width: 21.31rem;
+      height: 66px;
+      background: #fbf9f7;
+      border: 1px solid #000000;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      position: absolute;
+      bottom: -33px;
+      a {
+        color: black;
+      }
     }
   }
 }
