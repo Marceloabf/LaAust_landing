@@ -64,6 +64,10 @@ export default function Home() {
             </p>
             <Button text="criar marca ideal" />
           </div>
+          <img
+            src={img2girlsTalking}
+            alt="2 mulheres conversando na cafeteria"
+          />
         </section>
       </main>
     </>
