@@ -6,11 +6,13 @@
 .mainContainer {
   margin: 0 17.8rem;
 }
-body {
-  background: #fbf9f7;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background: #fbf9f7;
 }
 a {
   text-decoration: none;

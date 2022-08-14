@@ -1,13 +1,16 @@
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+  justify-content: center;
   height: 8.125rem;
 
-  padding: 0 17.8rem;
-
   border-bottom: 1px solid #000000;
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54rem;
+    margin: 0 17.8rem;
+  }
   .logo {
     height: 56px;
     width: 350px;
